@@ -2,7 +2,8 @@
 ## 1. Cover Page
 Project: CourseMate — AI Course Recommendation System
 Course: Fundamental of AI/ML
-Student: [YOUR NAME]
+Student: [VIKAS TIWARI]
+registration no: [25MIM110105]
 Program: Integrated M.Tech – AI/ML
 Institution: VIT Bhopal University
 Academic Year: 2026–27
@@ -20,10 +21,10 @@ Students have many courses available and may need help identifying courses relat
 - Rank and display relevant courses.
 
 ## 5. Functional Requirements
-Load data, validate data, accept preferences, create TF-IDF vectors, calculate similarity, rank courses, and display top five.
+Load data, check the data take in the preferences make TF-IDF vectors figure out the similarity sort the courses and show the five.
 
 ## 6. Non-Functional Requirements
-Usability, maintainability, reliability, resource efficiency, and reproducibility.
+Usability, maintainability, reliability, resource efficiency and reproducibility.
 
 ## 7. System Architecture
 See reports/architecture.md.
@@ -38,7 +39,7 @@ The bundled CSV contains 20 technical course records with course name, domain, l
 Content-based filtering is used. TF-IDF converts course text into vectors. Cosine similarity compares the user profile vector with each course vector. Courses are then ranked by similarity.
 
 ## 11. Implementation
-data_loader.py loads data, recommender.py performs TF-IDF and similarity calculations, and main.py handles terminal interaction.
+data_loader.py loads data. Recommender.py performs TF-IDF and similarity calculations. Main.py handles interaction.
 
 ## 12. Testing
 Two pytest tests verify the dataset and recommendation output.
