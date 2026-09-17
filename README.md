@@ -82,6 +82,7 @@ This is a basic content-based recommender. It does not use ratings, user history
 Ratings, user history, collaborative filtering, larger dataset, and web interface.
 
 ## Author
-**[YOUR NAME]**
+**[VIKAS TIWARI]**
+**[25MIM10105]**
 Integrated M.Tech – AI/ML
 VIT Bhopal University
